@@ -2,3 +2,7 @@
 
 Git uses fast-forward in case if the target branch (main in our case) has not received any new commits since the feature branch was created. But since we added 
 the "Goodbye" line into the Program.cs in the main branch git didn't use fast-forwerd
+
+
+A merge preserves the exact history of how branches diverged and creates a new "merge commit" to tie them together (resulting in a branched, diamond-shaped 
+history). A rebase rewrites the project history by taking the commits from the feature branch and placing them directly on top of the latest main branch.
