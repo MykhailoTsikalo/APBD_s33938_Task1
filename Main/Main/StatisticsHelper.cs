@@ -9,5 +9,10 @@ namespace Main
         public static Boolean IsValidInput(string input) {
             return !string.IsNullOrEmpty(input);
         }
+
+        public static double CalculateAverage(int[] values) {
+            if(values == null || values.Length == 0) return 0;
+            return values.Average();
+        }
     }
 }
