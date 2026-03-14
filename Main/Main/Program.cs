@@ -16,6 +16,8 @@ namespace Main
             }
 
             Console.WriteLine($"You entered: {input}");
+
+            Console.WriteLine("Goodbye");
         }
     }
 }
