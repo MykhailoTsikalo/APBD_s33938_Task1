@@ -1,4 +1,5 @@
-﻿using System;
+﻿//This is the main starting point of the application
+using System;
 
 namespace Main
 {
