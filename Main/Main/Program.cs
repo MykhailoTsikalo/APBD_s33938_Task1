@@ -7,7 +7,9 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the AWESOME Statistics App!");
+
+            Console.WriteLine("Welcome to the AWESOME App!");
+
             Console.WriteLine("Please enter a number:");
             string input = Console.ReadLine();
 
